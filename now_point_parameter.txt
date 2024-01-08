@@ -1,0 +1,14 @@
+scoring: make_scorer(accuracy_score)
+best_score: 1.0
+best_param: {'colsample_bytree': 0.8, 'gamma': 0, 'learning_rate': 0.1, 'max_depth': 2, 'min_child_weight': 2, 'reg_lambda': 0}
+              precision    recall  f1-score   support
+
+           0      1.000     1.000     1.000         7
+           1      1.000     1.000     1.000        10
+           2      1.000     1.000     1.000        19
+           3      1.000     1.000     1.000        34
+           4      1.000     1.000     1.000        56
+
+    accuracy                          1.000       126
+   macro avg      1.000     1.000     1.000       126
+weighted avg      1.000     1.000     1.000       126
