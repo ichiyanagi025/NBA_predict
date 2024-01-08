@@ -14,7 +14,7 @@ GameID 11~:プレシーズンマッチ
        51~:プレイイントーナメント
 
 predict_now_point.py
--単純な４値分類
+-単純な5値分類
 calculate_and_export_stats
 -データ作成用の関数
   入力:Kevin Durant.csv
